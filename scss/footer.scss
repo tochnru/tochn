@@ -1,0 +1,298 @@
+.footer{
+   background-color: $colorBlack;
+   padding-top: 160px;
+   padding-bottom: 100px;
+   border-top-left-radius: 40px;
+   border-top-right-radius: 40px;
+   font-family: "Nunito";
+}
+.footer-social{
+   display: flex;
+   justify-content: space-between;
+   margin-bottom: 50px;
+   &__link{
+      color: white;
+      text-decoration: none;
+      font-size: 80px;
+      font-weight: 700;
+      transition-duration: 0.3s;
+      &:hover{
+         color: #8b8b8b;
+      }
+   }
+   &__link:nth-child(1){
+      position: relative;
+      &::before{
+         content: "по делу";
+         position: absolute;
+         right: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: $colorBlack;
+         width: 86px;
+         height: 30px;
+         font-size: 16px;
+         border-radius: 15px;
+         background-color: #fdbf08;
+      }
+   }
+   &__link:nth-child(2){
+      position: relative;
+      &::before{
+         content: "интересно";
+         position: absolute;
+         right: 0;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         width: 100px;
+         height: 30px;
+         font-size: 16px;
+         border-radius: 15px;
+         background-color: #EA504E;
+      }
+   }
+   &__link:nth-child(3){
+      position: relative;
+      &::before{
+         content: "полезно";
+         position: absolute;
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: white;
+         width: 100px;
+         height: 30px;
+         font-size: 16px;
+         border-radius: 15px;
+         background-color: #4eb9ea;
+      }
+   }
+}
+.footer-menu{
+   display: flex;
+   justify-content: space-between;
+   &__link{
+      display: block;
+      color: white;
+      text-decoration: none;
+      font-size: 22px;
+      &:hover{
+         text-decoration: underline;
+      }
+   }
+   &__item:not(:last-child){
+      margin-right: 50px;
+   }
+}
+.footer-list{
+   display: flex;
+   list-style-type: none;
+}
+.footer-copyright{
+   font-size: 22px;
+   color: #8b8b8b;
+}
+
+@media screen and (max-width:1440px){
+   .footer-social{
+      &__link{
+         font-size: calc(40px + 3vw);
+      }
+   }
+}
+@media screen and (max-width:1232px){}
+@media screen and (max-width:1024px){
+   .footer{
+      padding-top: 150px;
+      padding-bottom: 90px;
+   }
+   .footer-social{
+      &__link:nth-child(1){
+         &::before{
+            width: 78px;
+            height: 28px;
+            font-size: 15px;
+            border-radius: 14px;
+         }
+      }
+      &__link:nth-child(2){
+         &::before{
+            width: 94px;
+            height: 28px;
+            font-size: 15px;
+            border-radius: 14px;
+         }
+      }
+      &__link:nth-child(3){
+         &::before{
+            width: 84px;
+            height: 28px;
+            font-size: 15px;
+            border-radius: 14px;
+            right: -1px;
+         }
+      }
+   }
+}
+@media screen and (max-width:896px){
+   .footer-social{
+      &__link{
+         font-size: calc(34px + 3vw);
+      }
+      &__link:nth-child(1){
+         &::before{
+            width: 70px;
+            font-size: 14px;
+         }
+      }
+      &__link:nth-child(2){
+         &::before{
+            width: 88px;
+            font-size: 14px;
+         }
+      }
+      &__link:nth-child(3){
+         &::before{
+            width: 74px;
+            font-size: 14px;
+            right: -3px;
+         }
+      }
+   }
+   .footer-menu{
+      &__item:not(:last-child){
+         margin-right: 40px;
+      }
+   }
+}
+@media screen and (max-width:768px){
+   .footer-social{
+      &__link{
+         font-size: calc(26px + 3vw);
+      }
+      &__link:nth-child(1){
+         &::before{
+            width: 66px;
+            height: 26px;
+            font-size: 13px;
+            top: -7px;
+         }
+      }
+      &__link:nth-child(2){
+         &::before{
+            width: 84px;
+            height: 26px;
+            font-size: 13px;
+            top: -7px;
+         }
+      }
+      &__link:nth-child(3){
+         &::before{
+            width: 70px;
+            height: 26px;
+            font-size: 13px;
+            right: -9px;
+            top: -7px;
+         }
+      }
+   }
+   .footer-menu{
+      &__link{
+         font-size: 20px;
+      }
+      &__item:not(:last-child){
+         margin-right: 30px;
+      }
+   }
+   .footer-copyright{
+      font-size: 20px;
+   }
+}
+@media screen and (max-width:624px){
+   .footer-social{
+      flex-direction: column;
+      &__link{
+         font-size: calc(26px + 3vw);
+      }
+      &__link:nth-child(1){
+         &::before{
+            width: 72px;
+            height: 28px;
+            font-size: 14px;
+            top: 15px;
+         }
+      }
+      &__link:nth-child(2){
+         &::before{
+            width: 92px;
+            height: 28px;
+            font-size: 14px;
+            top: 15px;
+         }
+      }
+      &__link:nth-child(3){
+         &::before{
+            width: 78px;
+            height: 28px;
+            font-size: 14px;
+            right: 0px;
+            top: 15px;
+         }
+      }
+   }
+   .footer-menu{
+      flex-direction: column;
+      align-items: center;
+   }
+   .footer-nav{
+      margin-bottom: 30px;
+   }
+}
+@media screen and (max-width:480px){
+   .footer-list{
+      justify-content: space-between;
+   }
+   .footer-nav{
+      width: 100%;
+   }
+   .footer-menu{
+      &__item:not(:last-child){
+         margin-right: 0;
+      }
+   }
+}
+@media screen and (max-width:400px){
+   .footer-social{
+      &__link:nth-child(1){
+         &::before{
+            width: 68px;
+            font-size: 13px;
+            top: 13px;
+         }
+      }
+      &__link:nth-child(2){
+         &::before{
+            width: 88px;
+            font-size: 13px;
+            top: 13px;
+         }
+      }
+      &__link:nth-child(3){
+         &::before{
+            width: 74px;
+            font-size: 13px;
+            right: 0px;
+            top: 13px;
+         }
+      }
+   }
+   .footer-menu{
+      &__link{
+         font-size: 16px;
+      }
+   }
+}
+@media screen and (max-width:360px){}

@@ -1,0 +1,252 @@
+.interest{
+   padding-top: 200px;
+   padding-bottom: 200px;
+   &__h4{
+      font-size: 66px;
+      font-weight: 500;
+      font-family: "Exo 2", sans-serif;
+      margin-right: 20px;
+   }
+   &__video{
+      border-radius: 50%;
+      width: 80px;
+      height: 80px;
+   }
+}
+.wrapper-interest-header{
+   margin: 0 auto;
+   display: flex;
+   align-items: center;
+   width: 700px;
+   margin-bottom: 200px;
+   font-family: "Exo2", sans-serif;
+   // border: 1px solid red;
+}
+.wrapper-interest-article{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   // border: 1px solid red;
+   height: 400px;
+}
+.img-interest{
+   height: 100%;
+   width: 560px;
+   width: calc(300px + 20vw);
+   background: url(/img/article/kak-reshit/obratnaya-zasechka-pranis-pranevicha/header-obratnaya-zasechka-pranis-pranevicha.svg) no-repeat center;
+   background-size: contain;
+   // border: 1px solid red;
+}
+.card-interest{
+   width: calc(300px + 20vw);
+   height: 100%;
+   border-radius: 50px;
+   background: linear-gradient(85deg, #434343, #262626);
+   box-shadow: -3rem 0 3rem -2rem #000;
+   cursor: pointer;
+   padding: 50px 40px;
+   text-decoration: none;
+   font-family: "Nunito";
+   &__header{
+      display: flex;
+      margin-bottom: 20px;
+   }
+   &__img{
+      height: 24px;
+      margin-right: 16px;
+   }
+   &__title{
+      color: #8b8b8b;
+      font-size: 22px;
+      font-weight: 600;
+   }
+   &__description{
+      color: white;
+      font-size: 18px;
+      &--color{
+         color: $colorOrange;
+      }
+   }
+   &:hover {
+      transform: translateY(-10px) rotate(3deg);
+      transition-duration: 0.4s;
+   }
+}
+
+@media screen and (max-width:1440px){}
+@media screen and (max-width:1232px){
+   .interest{
+      padding-top: 180px;
+      padding-bottom: 180px;
+      &__h4{
+         font-size: 60px;
+      }
+   }
+   .wrapper-interest-header{
+      width: 650px;
+      margin-bottom: 160px;
+   }
+   .img-interest{
+      width: calc(250px + 20vw);
+   }
+}
+@media screen and (max-width:1024px){
+   .wrapper-interest-article{
+      height: 380px;
+   }
+   .img-interest{
+      width: calc(250px + 10vw);
+   }
+   .card-interest{
+      padding: 40px 30px;
+      &__title{
+         font-size: 20px;
+      }
+   }
+
+}
+@media screen and (max-width:896px){
+   .wrapper-interest-header{
+      margin-bottom: 120px;
+      width: 550px;
+   }
+   .interest{
+      &__h4{
+         font-size: 50px;
+      }
+   }
+   .wrapper-interest-article{
+      height: 360px;
+   }
+   .img-interest{
+      width: calc(220px + 10vw);
+   }
+   .card-interest{
+      border-radius: 40px;
+      width: calc(240px + 20vw);
+      &__img{
+         height: 20px;
+      }
+      &__title{
+         font-size: 18px;
+      }
+      &__description{
+         font-size: 16px;
+      }
+   }
+}
+@media screen and (max-width:768px){
+   .wrapper-interest-header{
+      margin-bottom: 100px;
+      width: 450px;
+   }
+   .interest{
+      &__h4{
+         font-size: 40px;
+      }
+      &__video{
+         width: 70px;
+         height: 70px;
+      }
+   }
+   .wrapper-interest-article{
+      height: auto;
+      flex-direction: column;
+   }
+   .img-interest{
+      height: 200px;
+      width: 80%;
+      background-size: cover;
+      margin-bottom: 40px;
+      box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+   }
+   .card-interest{
+      width: 80%;
+      &__title{
+         font-size: 20px;
+      }
+      &__img{
+         height: 22px;
+      }
+      &__description{
+         font-size: 18px;
+      }
+   }
+}
+@media screen and (max-width:624px){
+   .wrapper-interest-header{
+      margin-bottom: 80px;
+      width: 390px;
+   }
+   .interest{
+      &__h4{
+         font-size: 34px;
+      }
+      &__video{
+         width: 60px;
+         height: 60px;
+      }
+   }
+   .img-interest{
+      height: 180px;
+   }
+}
+@media screen and (max-width:480px){
+   .wrapper-interest-header{
+      width: 350px;
+   }
+   .interest{
+      padding-top: 160px;
+      padding-bottom: 160px;
+      &__h4{
+         font-size: 30px;
+      }
+   }
+   .img-interest{
+      width: 100%;
+   }
+   .card-interest{
+      width: 100%;
+      &__img{
+         height: 20px;
+      }
+      &__title{
+         font-size: 18px;
+      }
+      &__description{
+         font-size: 16px;
+      }
+   }
+}
+@media screen and (max-width:400px){
+   .interest{
+      padding-top: 140px;
+      padding-bottom: 140px;
+      &__h4{
+         font-size: 22px;
+      }
+      &__video{
+         width: 50px;
+         height: 50px;
+      }
+   }
+   .wrapper-interest-header{
+      width: 270px;
+      margin-bottom: 60px;
+   }
+   .img-interest{
+      height: 160px;
+   }
+   .card-interest{
+      &__img{
+         height: 16px;
+      }
+      &__title{
+         font-size: 16px;
+      }
+      &__description{
+         font-size: 14px;
+      }
+   }
+}
+@media screen and (max-width:360px){}

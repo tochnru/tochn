@@ -1,0 +1,8 @@
+User-agent: *
+Disallow: /include/
+Disallow: /video/
+Disallow: /ehto-kak/page
+Disallow: /kak-reshit/page
+Disallow: /kod/page
+
+Sitemap: https://tochn.ru/sitemap.xml

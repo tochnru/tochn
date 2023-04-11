@@ -1,0 +1,241 @@
+.section-article{
+   background-color: $colorBlack;
+   padding-top: 200px;
+   padding-bottom: 100px;
+   border-bottom-left-radius: 30px;
+   border-bottom-right-radius: 30px;
+}
+.article-index-header{
+   margin: 0 auto;
+   width: 700px;
+   margin-bottom: 100px;
+   &__h2{
+      font-family: "Exo2", sans-serif;
+      color: white;
+      font-size: 40px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 2px;
+      &--right{
+         text-align: right;
+      }
+      &--center{
+         text-align: center;
+      }
+   }
+   &__h2-span{
+      font-weight: 300;
+   }
+}
+.article-container{
+   display: flex;
+   justify-content: space-between;
+   font-family: "Oswald", sans-serif;
+}
+.article-container:not(:last-child){
+   margin-bottom: 100px;
+}
+.article-max{
+   color: white;
+   width: 46%;
+   // border: 1px solid red;
+   text-decoration: none;
+}
+.article-min{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   color: white;
+   width: 34%;
+   // border: 1px solid rgb(36, 240, 121);
+   text-decoration: none;
+}
+.article-max-img{
+   width: 100%;
+   max-height: 400px;
+   height: 26vw;
+   border-radius: 60px;
+   background-position: center;
+   &--one{
+      background: url(/img/article/kak-reshit/obratnaya-geodezicheskaya-zadacha/header-obratnaya-geodezicheskaya-zadacha.svg) center no-repeat;
+      background-size: cover;
+      &:hover{
+         transform: scale(1.05);
+         transition-duration: 1.2s;
+      }
+   }
+   &--two{
+      background: url(/img/article/kod/pryamaya-geodezicheskaya-zadacha-na-php/header-pryamaya-geodezicheskaya-zadacha-na-php.svg) center no-repeat;
+      background-size: cover;
+      &:hover{
+         transform: scale(1.05);
+         transition-duration: 1.2s;
+      }
+   }
+}
+.article-min-img{
+   border-radius: 40px;
+   max-height: 300px;
+   height: 20vw;
+   &--one{
+      background: url(/img/article/ehto-kak/nakhozhdenie-centra-okruzhnosti/header-nakhozhdenie-centra-okruzhnosti.svg) center no-repeat;
+      background-size: cover;
+      width: 100%;
+      &:hover{
+         transform: scale(1.05);
+         transition-duration: 1.2s;
+      }
+   }
+   &--two{
+      background: url(/img/article/kak-reshit/gruppirovka-geodezicheskikh-izmerenij/header-gruppirovka-geodezicheskikh-izmerenij.svg) center no-repeat;
+      background-size: cover;
+      width: 100%;
+      &:hover{
+         transform: scale(1.05);
+         transition-duration: 1.2s;
+      }
+   }
+}
+.article-index-h3{
+   font-size: 22px;
+   margin-top: 20px;
+   font-family: "Oswald", sans-serif;
+   letter-spacing: 1px;
+   text-transform: uppercase;
+   margin-bottom: 5px;
+   font-weight: 300;
+   text-align: center;
+}
+
+@media screen and (max-width:1440px){}
+@media screen and (max-width:1232px){}
+@media screen and (max-width:1024px){
+   .article-index-header{
+      width: 650px;
+      &__h2{
+         font-size: 36px;
+      }
+   }
+   .article-max-img{
+      border-radius: 50px;
+   }
+   .article-min-img{
+      border-radius: 36px;
+   }
+   .article-index-h3{
+      font-size: 20px;
+   }
+}
+@media screen and (max-width:896px){
+   .section-article{
+      padding-top: 160px;
+   }
+   .article-index-header{
+      width: 580px;
+      &__h2{
+         font-size: 32px;
+      }
+   }
+   .article-max-img{
+      border-radius: 40px;
+   }
+   .article-min-img{
+      border-radius: 30px;
+   }
+   .article-index-h3{
+      font-size: 18px;
+   }
+}
+@media screen and (max-width:768px){
+   .section-article{
+      padding-top: 120px;
+   }
+   .article-index-header{
+      width: 510px;
+      margin-bottom: 80px;
+      &__h2{
+         font-size: 28px;
+      }
+   }
+   .article-max{
+      width: 50%;
+   }
+   .article-min{
+      width: 36%;
+   }
+   .article-max-img{
+      height: 28vh;
+   }
+   .article-min-img{
+      height: 22vw;
+   }
+   .article-index-h3{
+      font-size: 16px;
+   }
+}
+@media screen and (max-width:624px){
+   .article-index-header{
+      width: 420px;
+      &__h2{
+         font-size: 24px;
+      }
+   }
+   .article-container{
+      flex-direction: column;
+      width: 100%;
+      align-items: center;
+      margin: 0 auto;
+   }
+   .article-max{
+      width: 80%;
+      margin-bottom: 30px;
+   }
+   .article-max-img{
+      height: 46vw;
+   }
+   .article-min{
+      width: 80%;
+      margin-bottom: 30px;
+   }
+   .article-min-img{
+      height: 46vw;
+   }
+   .article-container:not(:last-child){
+      margin-bottom: 0;
+   }
+}
+@media screen and (max-width:480px){
+   .article-index-header{
+      width: 100%;
+      &__h2{
+         font-size: calc(9px + 3vw);
+      }
+   }
+   .article-max{
+      width: 84%;
+   }
+   .article-max-img{
+      height: 48vw;
+   }
+   .article-min{
+      width: 84%;
+   }
+   .article-min-img{
+      height: 48vw;
+   }
+}
+@media screen and (max-width:400px){
+   .article-max{
+      width: 100%;
+   }
+   .article-max-img{
+      height: 56vw;
+   }
+   .article-min{
+      width: 100%;
+   }
+   .article-min-img{
+      height: 56vw;
+   }
+}
+@media screen and (max-width:360px){}

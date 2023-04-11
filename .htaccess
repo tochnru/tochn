@@ -1,0 +1,24 @@
+RewriteEngine On
+
+#Редирект c www.tochn.ru на tochn.ru и на https
+RewriteCond %{HTTP_HOST} ^www\.tochn\.ru$ [NC,OR]
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://tochn.ru/$1 [R=301,L]
+
+#Редирект с index.html на корень
+RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+RewriteRule ^index\.html$ http://www.tochn.ru/ [R=301,L]
+
+#404 редирект
+ErrorDocument 404 https://www.tochn.ru/
+
+#Редирект с .php на без php
+RewriteCond %{ENV:REDIRECT_STATUS} ^$
+RewriteRule ^(.+)\.php$ /$1 [R=301,L]
+
+# Если запрашиваемый объект не папка
+RewriteCond %{REQUEST_FILENAME} !-d
+# если запрашиваемый объект с дописанным расширением php - файл
+RewriteCond %{REQUEST_FILENAME}\.php -f
+# делаем замену с дописыванием .php
+RewriteRule ^(.*)$ $1.php

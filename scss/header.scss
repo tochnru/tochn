@@ -1,0 +1,383 @@
+.header-menu{
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   height: 140px;
+   font-family: "Nunito";
+   &__logo{
+      color: $colorBlack;
+      font-size: 40px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+   }
+   &__logo-point{
+      color: $colorViolet;
+   }
+   &__burger{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      background-color: $colorViolet;
+      cursor: pointer;
+      &-line{
+         width: 26px;
+         height: 2px;
+         background-color: white;
+      }
+      &-line:not(:last-child){
+         margin-bottom: 5px;
+      }
+   }
+}
+.menu-main{
+   position: fixed;
+   top: 0;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   background: white;
+   display: none;
+   grid-template-columns: minmax(0,700px) minmax(0, 700px);
+   grid-template-rows: 140px calc(100vh - 140px);
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   z-index: 5;
+   overflow-y: auto;
+   overflow-x: hidden;
+   background-color: $colorLiteGray;
+   font-family: "Nunito";
+}
+.menu-title{
+   grid-column: 1/3;
+   grid-row: 1;
+   width: 100%;
+   height: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   &__logo{
+      color: $colorBlack;
+      font-size: 40px;
+      text-decoration: none;
+      text-transform: uppercase;
+      font-weight: 700;
+      &-point{
+         color: $colorViolet;
+      }
+   }
+   &__close{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width: 70px;
+      height: 70px;
+      border-radius: 50%;
+      border: 1px solid $colorViolet;
+      cursor: pointer;
+      font-weight: 700;
+      font-size: 20px;
+   }
+}
+.menu-nav{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   // border: 1px solid red;
+   padding-right: 20px;
+   height: 100%;
+   &__link{
+      color: $colorBlack;
+      font-size: 100px;
+      text-decoration: none;
+      font-weight: 700;
+      &--kak-reshit{
+         position: relative;
+         &::before{
+            content: "1";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: -40px;
+            top: 20px;
+            font-size: 18px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #17F1D1;
+         }
+      }
+      &--ehto-kak{
+         position: relative;
+         &::before{
+            content: "1";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: -40px;
+            top: 20px;
+            font-size: 18px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #FFD074;
+         }
+      }
+      &--kod{
+         position: relative;
+         &::before{
+            content: "1";
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: -40px;
+            top: 20px;
+            font-size: 18px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #f055c9;
+         }
+      }
+      &--telegram{
+         position: relative;
+         &::before{
+            content: "";
+            background: url(/img/global/menu-telegram.svg) center no-repeat;
+            background-position: 8px;
+            background-size: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: absolute;
+            right: -40px;
+            top: 20px;
+            font-size: 18px;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            background-color: #4b7eff;
+         }
+      }
+      &:hover{
+         text-decoration: underline;
+      }
+   }
+}
+.menu-list{
+   list-style-type: none;
+}
+.menu-contact{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-end;
+   padding-left: 20px;
+   height: 100%;
+   padding-bottom: 70px;
+   &__title{
+      color: $colorViolet;
+      font-size: 18px;
+      text-transform: uppercase;
+      font-weight: 700;
+      letter-spacing: 1px;
+      margin-bottom: 20px;
+   }
+   &__link{
+      font-size: 40px;
+      color: #3b3b3f;
+      text-decoration: none;
+      font-weight: 600;
+      &:hover{
+         color: #242427;
+      }
+   }
+}
+
+@media screen and (max-width:1440px){
+   .menu-nav{
+      &__link{
+         font-size: calc(30px + 4vw);
+      }
+   }
+}
+@media screen and (max-width:1232px){}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:896px){
+   .menu-contact{
+      &__link{
+         font-size: 34px;
+      }
+   }
+   .menu-nav{
+      &__link{
+         &--kak-reshit::before{
+            top: 5px;
+            right: -36px;
+            width: 36px;
+            height: 36px;
+         }
+         &--ehto-kak::before{
+            top: 5px;
+            right: -36px;
+            width: 36px;
+            height: 36px;
+         }
+         &--kod::before{
+            top: 5px;
+            right: -36px;
+            width: 36px;
+            height: 36px;
+         }
+         &--telegram::before{
+            top: 5px;
+            right: -36px;
+            width: 36px;
+            height: 36px;
+            background-position: 9px;
+            background-size: 16px;
+         }
+      }
+   }
+}
+@media screen and (max-width:768px){
+   .header-menu{
+      height: 110px;
+      &__logo{
+         font-size: 36px;
+      }
+      &__burger{
+         width: 60px;
+         height: 60px;
+      }
+   }
+   .menu-main{
+      grid-template-rows: 110px calc(100vh - 110px);
+   }
+   .menu-title{
+      &__logo{
+         font-size: 36px;
+      }
+      &__close{
+         width: 60px;
+         height: 60px;
+      }
+   }
+   .menu-nav{
+      &__link{
+         font-size: calc(28px + 3vw);
+         &--kak-reshit::before{
+            width: 32px;
+            height: 32px;
+            font-size: 16px;
+         }
+         &--ehto-kak::before{
+            width: 32px;
+            height: 32px;
+            font-size: 16px;
+         }
+         &--kod::before{
+            width: 32px;
+            height: 32px;
+            font-size: 16px;
+         }
+         &--telegram::before{
+            width: 32px;
+            height: 32px;
+            background-size: 15px;
+         }
+      }
+   }
+}
+@media screen and (max-width:624px){
+   .menu-main{
+      grid-template-columns: 1fr;
+      grid-template-rows: 110px 2fr 1fr;
+   }
+   .menu-title{
+      grid-column: 1;
+   }
+   .menu-nav{
+      grid-column: 1;
+      grid-row: 2;
+      justify-self: center;
+      padding-right: 0;
+   }
+   .menu-contact{
+      justify-self: center;
+      padding-left: 0;
+      padding-bottom: 50px;
+      &__link{
+         font-size: 32px;
+      }
+   }
+}
+@media screen and (max-width:480px){
+   .header-menu{
+      height: 100px;
+      &__logo{
+         font-size: 32px;
+      }
+      &__burger{
+         width: 52px;
+         height: 52px;
+         &-line{
+            width: 22px;
+         }
+      }
+   }
+   .menu-main{
+      grid-template-rows: 100px 2fr 1fr;
+   }
+   .menu-title{
+      &__logo{
+         font-size: 32px;
+      }
+      &__close{
+         width: 52px;
+         height: 52px;
+         font-size: 18px;
+      }
+   }
+   .menu-nav{
+      &__link{
+         font-size: calc(28px + 3vw);
+         &--kak-reshit::before{
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+         }
+         &--ehto-kak::before{
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+         }
+         &--kod::before{
+            width: 30px;
+            height: 30px;
+            font-size: 14px;
+         }
+         &--telegram::before{
+            width: 30px;
+            height: 30px;
+            background-size: 14px;
+            background-position: 8px;
+         }
+      }
+   }
+   .menu-contact{
+      &__link{
+         font-size: 26px;
+      }
+   }
+}
+@media screen and (max-width:400px){}
+@media screen and (max-width:360px){}
