@@ -1,43 +1,26 @@
-.interest{
-   padding-top: 200px;
-   padding-bottom: 200px;
-   &__h4{
-      font-size: 66px;
-      font-weight: 500;
-      font-family: "Exo 2", sans-serif;
-      margin-right: 20px;
-   }
-   &__video{
-      border-radius: 50%;
-      width: 80px;
-      height: 80px;
-   }
+.main-menu-article{
+   padding-top: 100px;
+   padding-bottom: 160px;
 }
-.wrapper-interest-header{
-   margin: 0 auto;
-   display: flex;
-   align-items: center;
-   width: 700px;
-   margin-bottom: 200px;
-   font-family: "Exo2", sans-serif;
-   // border: 1px solid red;
-}
-.wrapper-interest-article{
+.public-menu-article{
    display: flex;
    justify-content: space-between;
    align-items: center;
-   // border: 1px solid red;
    height: 400px;
 }
-.img-interest{
+.img-public{
    height: 100%;
    width: 560px;
    width: calc(300px + 20vw);
-   background: url(/img/article/kak-reshit/obratnaya-zasechka-pranis-pranevicha/header-public-obratnaya-zasechka-pranis-pranevicha.svg) no-repeat center;
+   background-repeat: no-repeat;
+   background-position: center;
    background-size: contain;
-   // border: 1px solid red;
 }
-.card-interest{
+@import "_kak-reshit-img.scss";
+@import "_ehto-kak-img.scss";
+@import "_kod-img.scss";
+
+.card-public{
    width: calc(300px + 20vw);
    height: 100%;
    border-radius: 50px;
@@ -73,31 +56,22 @@
    }
 }
 
+
+
 @media screen and (max-width:1440px){}
 @media screen and (max-width:1232px){
-   .interest{
-      padding-top: 180px;
-      padding-bottom: 180px;
-      &__h4{
-         font-size: 60px;
-      }
-   }
-   .wrapper-interest-header{
-      width: 650px;
-      margin-bottom: 160px;
-   }
-   .img-interest{
+   .img-public{
       width: calc(250px + 20vw);
    }
 }
 @media screen and (max-width:1024px){
-   .wrapper-interest-article{
+   .public-menu-article{
       height: 380px;
    }
-   .img-interest{
+   .img-public{
       width: calc(250px + 10vw);
    }
-   .card-interest{
+   .card-public{
       padding: 40px 30px;
       &__title{
          font-size: 20px;
@@ -106,22 +80,13 @@
 
 }
 @media screen and (max-width:896px){
-   .wrapper-interest-header{
-      margin-bottom: 120px;
-      width: 550px;
-   }
-   .interest{
-      &__h4{
-         font-size: 50px;
-      }
-   }
-   .wrapper-interest-article{
+   .public-menu-article{
       height: 360px;
    }
-   .img-interest{
+   .img-public{
       width: calc(220px + 10vw);
    }
-   .card-interest{
+   .card-public{
       border-radius: 40px;
       width: calc(240px + 20vw);
       &__img{
@@ -136,31 +101,18 @@
    }
 }
 @media screen and (max-width:768px){
-   .wrapper-interest-header{
-      margin-bottom: 100px;
-      width: 450px;
-   }
-   .interest{
-      &__h4{
-         font-size: 40px;
-      }
-      &__video{
-         width: 70px;
-         height: 70px;
-      }
-   }
-   .wrapper-interest-article{
+   .public-menu-article{
       height: auto;
       flex-direction: column;
    }
-   .img-interest{
+   .img-public{
       height: 200px;
       width: 80%;
       background-size: cover;
       margin-bottom: 40px;
       box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
    }
-   .card-interest{
+   .card-public{
       width: 80%;
       &__title{
          font-size: 20px;
@@ -174,38 +126,15 @@
    }
 }
 @media screen and (max-width:624px){
-   .wrapper-interest-header{
-      margin-bottom: 80px;
-      width: 390px;
-   }
-   .interest{
-      &__h4{
-         font-size: 34px;
-      }
-      &__video{
-         width: 60px;
-         height: 60px;
-      }
-   }
-   .img-interest{
+   .img-public{
       height: 180px;
    }
 }
 @media screen and (max-width:480px){
-   .wrapper-interest-header{
-      width: 350px;
-   }
-   .interest{
-      padding-top: 160px;
-      padding-bottom: 160px;
-      &__h4{
-         font-size: 30px;
-      }
-   }
-   .img-interest{
+   .img-public{
       width: 100%;
    }
-   .card-interest{
+   .card-public{
       width: 100%;
       &__img{
          height: 20px;
@@ -219,25 +148,10 @@
    }
 }
 @media screen and (max-width:400px){
-   .interest{
-      padding-top: 140px;
-      padding-bottom: 140px;
-      &__h4{
-         font-size: 22px;
-      }
-      &__video{
-         width: 50px;
-         height: 50px;
-      }
-   }
-   .wrapper-interest-header{
-      width: 270px;
-      margin-bottom: 60px;
-   }
-   .img-interest{
+   .img-public{
       height: 160px;
    }
-   .card-interest{
+   .card-public{
       &__img{
          height: 16px;
       }

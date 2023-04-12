@@ -1034,7 +1034,7 @@
   height: 100%;
   width: 560px;
   width: calc(300px + 20vw);
-  background: url(/img/article/kak-reshit/obratnaya-zasechka-pranis-pranevicha/header-obratnaya-zasechka-pranis-pranevicha.svg) no-repeat center;
+  background: url(/img/article/kak-reshit/obratnaya-zasechka-pranis-pranevicha/header-public-obratnaya-zasechka-pranis-pranevicha.svg) no-repeat center;
   background-size: contain;
 }
 
@@ -1237,6 +1237,176 @@
     font-size: 16px;
   }
   .card-interest__description {
+    font-size: 14px;
+  }
+}
+.main-menu-article {
+  padding-top: 100px;
+  padding-bottom: 160px;
+}
+
+.public-menu-article {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 400px;
+}
+
+.img-public {
+  height: 100%;
+  width: 560px;
+  width: calc(300px + 20vw);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+
+.img-public--kak-reshit {
+  background-image: url(/img/article/kak-reshit/obratnaya-zasechka-pranis-pranevicha/header-public-obratnaya-zasechka-pranis-pranevicha.svg);
+}
+
+.img-public--ehto-kak {
+  background-image: url(/img/article/ehto-kak/nakhozhdenie-centra-okruzhnosti/header-public-nakhozhdenie-centra-okruzhnosti.svg);
+}
+
+.img-public--kod {
+  background-image: url(/img/article/kod/pryamaya-geodezicheskaya-zadacha-na-php/header-public-pryamaya-geodezicheskaya-zadacha-na-php.svg);
+}
+
+.card-public {
+  width: calc(300px + 20vw);
+  height: 100%;
+  border-radius: 50px;
+  background: linear-gradient(85deg, #434343, #262626);
+  box-shadow: -3rem 0 3rem -2rem #000;
+  cursor: pointer;
+  padding: 50px 40px;
+  text-decoration: none;
+  font-family: "Nunito";
+}
+.card-public__header {
+  display: flex;
+  margin-bottom: 20px;
+}
+.card-public__img {
+  height: 24px;
+  margin-right: 16px;
+}
+.card-public__title {
+  color: #8b8b8b;
+  font-size: 22px;
+  font-weight: 600;
+}
+.card-public__description {
+  color: white;
+  font-size: 18px;
+}
+.card-public__description--color {
+  color: #ff4e00;
+}
+.card-public:hover {
+  transform: translateY(-10px) rotate(3deg);
+  transition-duration: 0.4s;
+}
+
+@media screen and (max-width: 1232px) {
+  .img-public {
+    width: calc(250px + 20vw);
+  }
+}
+@media screen and (max-width: 1024px) {
+  .public-menu-article {
+    height: 380px;
+  }
+  .img-public {
+    width: calc(250px + 10vw);
+  }
+  .card-public {
+    padding: 40px 30px;
+  }
+  .card-public__title {
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 896px) {
+  .public-menu-article {
+    height: 360px;
+  }
+  .img-public {
+    width: calc(220px + 10vw);
+  }
+  .card-public {
+    border-radius: 40px;
+    width: calc(240px + 20vw);
+  }
+  .card-public__img {
+    height: 20px;
+  }
+  .card-public__title {
+    font-size: 18px;
+  }
+  .card-public__description {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .public-menu-article {
+    height: auto;
+    flex-direction: column;
+  }
+  .img-public {
+    height: 200px;
+    width: 80%;
+    background-size: cover;
+    margin-bottom: 40px;
+    box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.3);
+  }
+  .card-public {
+    width: 80%;
+  }
+  .card-public__title {
+    font-size: 20px;
+  }
+  .card-public__img {
+    height: 22px;
+  }
+  .card-public__description {
+    font-size: 18px;
+  }
+}
+@media screen and (max-width: 624px) {
+  .img-public {
+    height: 180px;
+  }
+}
+@media screen and (max-width: 480px) {
+  .img-public {
+    width: 100%;
+  }
+  .card-public {
+    width: 100%;
+  }
+  .card-public__img {
+    height: 20px;
+  }
+  .card-public__title {
+    font-size: 18px;
+  }
+  .card-public__description {
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 400px) {
+  .img-public {
+    height: 160px;
+  }
+  .card-public__img {
+    height: 16px;
+  }
+  .card-public__title {
+    font-size: 16px;
+  }
+  .card-public__description {
     font-size: 14px;
   }
 }

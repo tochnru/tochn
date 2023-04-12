@@ -14,8 +14,8 @@
       </div>
       <div class="menu-contact">
          <div class="menu-contact__title">Контакты</div>
-         <a class="menu-contact__link" href="mailto:hi@tochn.ru" class="">hi@tochn.ru</a>
-         <a class="menu-contact__link" href="https://tochn.ru" class="">www.tochn.ru</a>
+         <a class="menu-contact__link" href="mailto:hi@tochn.ru">hi@tochn.ru</a>
+         <a class="menu-contact__link" href="https://tochn.ru">www.tochn.ru</a>
       </div>
       <nav class="menu-nav">
          <ul class="menu-list">

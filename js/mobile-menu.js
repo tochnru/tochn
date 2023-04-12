@@ -7,9 +7,9 @@ let introHeaderBtn = document.querySelector(".intro-header__btn");
 headerMenuBurger.onclick = function(){
    menuMain.style.display = "grid";
 }
-introHeaderBtn.onclick = function(){
-   menuMain.style.display = "grid";
-}
 menuTitleClose.onclick = function(){
    menuMain.style.display = "none";
+}
+introHeaderBtn.onclick = function(){
+   menuMain.style.display = "grid";
 }

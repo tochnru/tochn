@@ -13,9 +13,10 @@
    <meta property="og:title" content="Геодезия и геодезические задачи, методы решения в геодезии">
    <meta property="og:description" content="Интересное в геодезии, а также решение различных геодезических задач в различных смежных специальностях геодезист, маркшейдер, топограф и другие. Методы решения в геодезии">
    <meta property="og:url" content="https://www.tochn.ru/">
-   <meta property="og:image" content="https://www.ixbt.com/img/razmetka/oblozhka-1200x630.jpg">
+   <meta property="og:image" content="https://www.tochn.ru/img/razmetka/oblozhka-1200x630.jpg">
    <meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
    <!--OpenGraf end-->
+   <meta name="yandex-verification" content="b18d6e67991239e2" />
    <link rel="stylesheet" href="css/style.css">
    <link rel="stylesheet" href="css/fonts.css">
    <link rel="shortcut icon" href="/img/global/favicon.png" type="image/png">
