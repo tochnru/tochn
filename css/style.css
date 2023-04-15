@@ -1293,18 +1293,6 @@
   background-size: contain;
 }
 
-.img-public--kak-reshit {
-  background-image: url(/img/article/kak-reshit/obratnaya-zasechka-pranis-pranevicha/header-public-obratnaya-zasechka-pranis-pranevicha.svg);
-}
-
-.img-public--ehto-kak {
-  background-image: url(/img/article/ehto-kak/nakhozhdenie-centra-okruzhnosti/header-public-nakhozhdenie-centra-okruzhnosti.svg);
-}
-
-.img-public--kod {
-  background-image: url(/img/article/kod/pryamaya-geodezicheskaya-zadacha-na-php/header-public-pryamaya-geodezicheskaya-zadacha-na-php.svg);
-}
-
 .card-public {
   width: calc(300px + 20vw);
   height: 100%;

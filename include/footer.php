@@ -4,8 +4,8 @@
    <div class="container">
       <div class="footer-social">
          <a href="mailto:hi@tochn.ru" class="footer-social__link">hi@tochn.ru</a>
-         <a href="https://t.me/tochnru" class="footer-social__link">телеграм</a>
-         <a href="https://vk.com/tochnru" class="footer-social__link">вк</a>
+         <a href="https://t.me/tochnru" class="footer-social__link" target="_blank">телеграм</a>
+         <a href="https://vk.com/tochnru" class="footer-social__link" target="_blank">вк</a>
       </div>
       <div class="footer-menu">
          <nav class="footer-nav" itemscope="" itemtype="http://schema.org/SiteNavigationElement">
@@ -20,7 +20,7 @@
                   <a class="footer-menu__link" href="/kod/page" itemprop="url">Код</a>
                </li>
                <li class="footer-menu__item">
-                  <a class="footer-menu__link" href="https://t.me/tochnru" itemprop="url">Телеграм</a>
+                  <a class="footer-menu__link" href="https://t.me/tochnru" target="_blank" itemprop="url">Телеграм</a>
                </li>
             </ul>
          </nav>

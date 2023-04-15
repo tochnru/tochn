@@ -19,7 +19,7 @@
 
    <main class="main-menu-article container">
       <div class="public-menu-article">
-         <div class="img-public img-public--ehto-kak"></div>
+         <div class="img-public" style="background-image: url(/img/article/ehto-kak/nakhozhdenie-centra-okruzhnosti/header-public-nakhozhdenie-centra-okruzhnosti.svg);"></div>
          <a href="" class="card-public">
             <div class="card-public__header">
                <img class="card-public__img" src="/img/index/quotes.svg" alt="Геодезическая засечка">

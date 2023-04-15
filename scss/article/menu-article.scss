@@ -16,10 +16,6 @@
    background-position: center;
    background-size: contain;
 }
-@import "_kak-reshit-img.scss";
-@import "_ehto-kak-img.scss";
-@import "_kod-img.scss";
-
 .card-public{
    width: calc(300px + 20vw);
    height: 100%;
@@ -55,8 +51,6 @@
       transition-duration: 0.4s;
    }
 }
-
-
 
 @media screen and (max-width:1440px){}
 @media screen and (max-width:1232px){
