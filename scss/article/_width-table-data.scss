@@ -1,0 +1,67 @@
+//Обратная засечка Пранис-Праневича
+.tb0-1-ozpp{width: 300px;}
+.tb0-2-ozpp{width: 70px;}
+.tb0-3-ozpp{width: 300px;}
+.tb1-1-ozpp{width: 90px;}
+.tb1-2-ozpp{width: 110px;}
+.tb1-3-ozpp{width: 100px;}
+.tb1-4-ozpp{width: 100px;}
+.tb1-5-ozpp{width: 90px;}
+.tb1-6-ozpp{width: 100px;}
+.tb1-7-ozpp{width: 90px;}
+
+@media screen and (min-width:1232px){}
+@media screen and (max-width:1024px){}
+@media screen and (max-width:896px){
+   //Обратная засечка Пранис-Праневича
+   .tb0-1-ozpp{width: 240px;}
+   .tb0-3-ozpp{width: 240px;}
+}
+@media screen and (max-width:768px){
+   .tb1-1-ozpp{width: 70px; font-size: 12px;}
+   .tb1-2-ozpp{width: 80px; font-size: 12px;}
+   .tb1-3-ozpp{width: 80px; font-size: 12px;}
+   .tb1-4-ozpp{width: 80px; font-size: 12px;}
+   .tb1-5-ozpp{width: 80px; font-size: 12px;}
+   .tb1-6-ozpp{width: 90px; font-size: 12px;}
+   .tb1-7-ozpp{width: 90px; font-size: 12px;}
+}
+@media screen and (max-width:624px){
+   //Обратная засечка Пранис-Праневича
+   .tb0-1-ozpp{width: 180px;}
+   .tb0-2-ozpp{width: 50px;}
+   .tb0-3-ozpp{width: 200px;}
+   .tb1-1-ozpp{width: 50px; font-size: 10px;}
+   .tb1-2-ozpp{width: 66px; font-size: 10px;}
+   .tb1-3-ozpp{width: 60px; font-size: 10px;}
+   .tb1-4-ozpp{width: 60px; font-size: 10px;}
+   .tb1-5-ozpp{width: 50px; font-size: 10px;}
+   .tb1-6-ozpp{width: 60px; font-size: 10px;}
+   .tb1-7-ozpp{width: 70px; font-size: 10px;}
+}
+@media screen and (max-width:480px){
+   //Обратная засечка Пранис-Праневича
+   .tb0-1-ozpp{width: 140px;}
+   .tb0-2-ozpp{width: 40px;}
+   .tb0-3-ozpp{width: 160px;}
+   .tb1-1-ozpp{width: 44px; font-size: 9px;}
+   .tb1-2-ozpp{width: 56px; font-size: 9px;}
+   .tb1-3-ozpp{width: 54px; font-size: 9px;}
+   .tb1-4-ozpp{width: 50px; font-size: 9px;}
+   .tb1-5-ozpp{width: 42px; font-size: 9px;}
+   .tb1-6-ozpp{width: 54px; font-size: 9px;}
+   .tb1-7-ozpp{width: 50px; font-size: 9px;}
+}
+@media screen and (max-width:400px){
+   //Обратная засечка Пранис-Праневича
+   .tb0-1-ozpp{width: 110px;}
+   .tb0-3-ozpp{width: 120px;}
+   .tb1-1-ozpp{width: 32px; font-size: 7px;}
+   .tb1-2-ozpp{width: 44px; font-size: 7px;}
+   .tb1-3-ozpp{width: 42px; font-size: 7px;}
+   .tb1-4-ozpp{width: 40px; font-size: 7px;}
+   .tb1-5-ozpp{width: 34px; font-size: 7px;}
+   .tb1-6-ozpp{width: 42px; font-size: 7px;}
+   .tb1-7-ozpp{width: 38px; font-size: 7px;}
+}
+@media screen and (max-width:360px){}

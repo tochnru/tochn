@@ -51,3 +51,24 @@
    src: url(/fonts/oswald/Oswald-Light.ttf);
    font-weight: 300;
 }
+/*Caveat======================================*/
+@font-face {
+   font-family: 'Caveat';
+   src: url(/fonts/caveat/Caveat-Regular.ttf);
+   font-weight: 400;
+}
+@font-face {
+   font-family: 'Caveat';
+   src: url(/fonts/caveat/Caveat-Medium.ttf);
+   font-weight: 500;
+}
+@font-face {
+   font-family: 'Caveat';
+   src: url(/fonts/caveat/Caveat-SemiBold.ttf);
+   font-weight: 600;
+}
+@font-face {
+   font-family: 'Caveat';
+   src: url(/fonts/caveat/Caveat-Bold.ttf);
+   font-weight: 700;
+}

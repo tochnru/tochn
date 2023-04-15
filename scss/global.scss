@@ -16,3 +16,31 @@
 .color-orange{
    color: $colorOrange !important;
 }
+.color-violet{
+   color: $colorViolet !important;
+}
+//Отступы========================================
+.mb-0{
+   margin-bottom: 0 !important;
+}
+//Жирность шрифта================================
+.fw-600{
+   font-weight: 600 !important;
+}
+.fw-700{
+   font-weight: 700 !important;
+}
+//Линии==========================================
+.bb-violet-1{
+   border-bottom: 1px solid $colorViolet !important;
+}
+.bb-violet-2{
+   border-bottom: 2px solid $colorViolet !important;
+}
+.bb-black-1{
+   border-bottom: 1px solid black !important;
+}
+//Выравнивание текста
+.ta-right{
+   text-align: right !important;
+}

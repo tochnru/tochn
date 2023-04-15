@@ -20,7 +20,7 @@
    <main class="main-menu-article container">
       <div class="public-menu-article">
          <div class="img-public img-public--kak-reshit"></div>
-         <a href="" class="card-public">
+         <a href="/kak-reshit/obratnaya-zasechka-pranis-pranevicha" class="card-public">
             <div class="card-public__header">
                <img class="card-public__img" src="/img/index/quotes.svg" alt="Геодезическая засечка">
                <p class="card-public__title">Обратная засечка Пранис-Праневича</p>
