@@ -13,7 +13,7 @@
             <div class="article-max-img article-max-img--one"></div>
             <h3 class="article-index-h3">Обратная геодезическая задача</h3>
          </a>
-         <a href="#" class="article-min">
+         <a href="/ehto-kak/nakhozhdenie-centra-okruzhnosti" class="article-min">
             <div class="article-min-img article-min-img--one"></div>
             <h3 class="article-index-h3">Нахождение центра окружности</h3>
          </a>

@@ -83,7 +83,7 @@
    <article class="article-blog">
       <div class="article-header">
          <div class="article-header__description">
-            <h1 class="article-header__h1" itemprop="headline">Обратная засечка Пранис-Праневича</h1>
+            <h1 class="article-header__h1">Обратная засечка Пранис-Праневича</h1>
             <p class="article-header__preview">Руководство по решению обратной засечки по формулам Пранис-Праневича</p>
          </div>
          <div class="article-header__img"
@@ -92,7 +92,7 @@
       </div>
       <!--Хлебные крошки-->
       <ol class="article-breadcrumbs">
-         <li class="article-breadcrumbs__item"><time pubdate datetime="2023-04-15">15.04.2023 |</time></li>
+         <li class="article-breadcrumbs__item"><time datetime="2023-04-15">15.04.2023 |</time></li>
          <li class="article-breadcrumbs__item">
             <a class="article-breadcrumbs__link" href="/kak-reshit/page">Как решить |</a>
          </li>
@@ -230,22 +230,22 @@
          </tr>
          <tr class="article-table__str">
             <td class="tb0-1-ozpp">Тур, пир.</td>
-            <td class="tb0-2-ozpp">2</th>
+            <td class="tb0-2-ozpp">2</td>
             <td class="tb0-3-ozpp">0°0′0″</td>
          </tr>
          <tr class="article-table__str">
             <td class="tb0-1-ozpp">Миус, пир.</td>
-            <td class="tb0-2-ozpp">4</th>
+            <td class="tb0-2-ozpp">4</td>
             <td class="tb0-3-ozpp">100°18′20″</td>
          </tr>
          <tr class="article-table__str">
             <td class="tb0-1-ozpp">Загон, пир.</td>
-            <td class="tb0-2-ozpp">4</th>
+            <td class="tb0-2-ozpp">4</td>
             <td class="tb0-3-ozpp">179°32′45″</td>
          </tr>
          <tr class="article-table__str bb-violet-1">
             <td class="tb0-1-ozpp">Веселый, пир.</td>
-            <td class="tb0-2-ozpp">4</th>
+            <td class="tb0-2-ozpp">4</td>
             <td class="tb0-3-ozpp">230°35′00″</td>
          </tr>
       </table>

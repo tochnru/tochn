@@ -20,9 +20,9 @@
    <main class="main-menu-article container">
       <div class="public-menu-article">
          <div class="img-public" style="background-image: url(/img/article/ehto-kak/nakhozhdenie-centra-okruzhnosti/header-public-nakhozhdenie-centra-okruzhnosti.svg);"></div>
-         <a href="" class="card-public">
+         <a href="/ehto-kak/nakhozhdenie-centra-okruzhnosti" class="card-public">
             <div class="card-public__header">
-               <img class="card-public__img" src="/img/index/quotes.svg" alt="Геодезическая засечка">
+               <img class="card-public__img" src="/img/index/quotes.svg" alt="Найти центр круга">
                <p class="card-public__title">Нахождение центра окружности</p>
             </div>
             <p class="card-public__description">Определив центр круга или окружности, вы сможете решить различные геометрические задачи, такие как: нахождение длины окружности или площади круга. Найти центр круга можно разными методами, но данный способ является одним из наиболее простых методов определения центра круга.</p>
