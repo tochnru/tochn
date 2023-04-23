@@ -23,7 +23,7 @@
             <div class="article-min-img article-min-img--two"></div>
             <h3 class="article-index-h3">Группировка геодезических измерений</h3>
          </a>
-         <a href="#" class="article-max">
+         <a href="/kod/pryamaya-geodezicheskaya-zadacha-na-php.php" class="article-max">
             <div class="article-max-img article-max-img--two"></div>
             <h3 class="article-index-h3">Прямая геодезическая задача на PHP</h3>
          </a>

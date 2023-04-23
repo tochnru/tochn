@@ -130,21 +130,6 @@
             alt="Определяем центр круга">
          <figcaption class="article-figure__figcaption">Определяем центр круга</figcaption>
       </figure>
-
-
-
-
-
-
-
-
-
-
-      <p class="article-blog__txt"></p>
-      <p class="article-blog__txt"></p>
-      <p class="article-blog__txt"></p>
-      <p class="article-blog__txt"></p>
-      <p class="article-blog__txt"></p>
    </article>
 
    <?php
