@@ -9,7 +9,7 @@
                class="article-index-header__h2-span">в</span> журнале</p>
       </div>
       <div class="article-container">
-         <a href="#" class="article-max">
+         <a href="/kak-reshit/obratnaya-geodezicheskaya-zadacha" class="article-max">
             <div class="article-max-img article-max-img--one"></div>
             <h3 class="article-index-h3">Обратная геодезическая задача</h3>
          </a>

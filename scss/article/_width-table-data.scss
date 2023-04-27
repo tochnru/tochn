@@ -9,6 +9,12 @@
 .tb1-5-ozpp{width: 90px;}
 .tb1-6-ozpp{width: 100px;}
 .tb1-7-ozpp{width: 90px;}
+//Обратная геодезическая задача
+.tb1-1-ogz{width: 70px;}
+.tb1-2-ogz{width: 70px;}
+.tb1-3-ogz{width: 100px;}
+.tb1-4-ogz{width: 170px;}
+.tb1-5-ogz{width: 150px;}
 
 @media screen and (min-width:1232px){}
 @media screen and (max-width:1024px){}
@@ -38,6 +44,12 @@
    .tb1-5-ozpp{width: 50px; font-size: 10px;}
    .tb1-6-ozpp{width: 60px; font-size: 10px;}
    .tb1-7-ozpp{width: 70px; font-size: 10px;}
+   //Обратная геодезическая задача
+   .tb1-1-ogz{width: 60px;}
+   .tb1-2-ogz{width: 60px;}
+   .tb1-3-ogz{width: 70px;}
+   .tb1-4-ogz{width: 130px;}
+   .tb1-5-ogz{width: 110px;}
 }
 @media screen and (max-width:480px){
    //Обратная засечка Пранис-Праневича
@@ -51,6 +63,11 @@
    .tb1-5-ozpp{width: 42px; font-size: 9px;}
    .tb1-6-ozpp{width: 54px; font-size: 9px;}
    .tb1-7-ozpp{width: 50px; font-size: 9px;}
+   //Обратная геодезическая задача
+   .tb1-1-ogz{width: 40px;}
+   .tb1-2-ogz{width: 40px;}
+   .tb1-4-ogz{width: 110px;}
+   .tb1-5-ogz{width: 60px;}
 }
 @media screen and (max-width:400px){
    //Обратная засечка Пранис-Праневича
@@ -63,5 +80,11 @@
    .tb1-5-ozpp{width: 34px; font-size: 7px;}
    .tb1-6-ozpp{width: 42px; font-size: 7px;}
    .tb1-7-ozpp{width: 38px; font-size: 7px;}
+   //Обратная геодезическая задача
+   .tb1-1-ogz{width: 30px;}
+   .tb1-2-ogz{width: 22px;}
+   .tb1-3-ogz{width: 52px;}
+   .tb1-4-ogz{width: 90px;}
+   .tb1-5-ogz{width: 78px;}
 }
 @media screen and (max-width:360px){}
