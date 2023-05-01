@@ -33,7 +33,7 @@
          </a>
       </div>
       <div class="secondary-menu-article">
-         <a class="secondary-card secondary-card--max" href="#" style="background-image: url(/img/article/kak-reshit/gruppirovka-geodezicheskikh-izmerenij/header-gruppirovka-geodezicheskikh-izmerenij.svg);">
+         <a class="secondary-card secondary-card--max" href="/kak-reshit/gruppirovka-geodezicheskikh-izmerenij" style="background-image: url(/img/article/kak-reshit/gruppirovka-geodezicheskikh-izmerenij/header-gruppirovka-geodezicheskikh-izmerenij.svg);">
             <div class="secondary-card__header secondary-card__header--max">Группировка геодезических измерений</div>
          </a>
          <a class="secondary-card secondary-card--min" href="/kak-reshit/obratnaya-geodezicheskaya-zadacha" style="background-image: url(/img/article/kak-reshit/obratnaya-geodezicheskaya-zadacha/header-obratnaya-geodezicheskaya-zadacha.svg);">

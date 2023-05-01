@@ -15,6 +15,19 @@
 .tb1-3-ogz{width: 100px;}
 .tb1-4-ogz{width: 170px;}
 .tb1-5-ogz{width: 150px;}
+//Группировка геодезических измерений
+.tb1-1-ggi{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-basis: 100%;
+   height: 100%;
+   border: 1px solid $colorViolet;
+}
+.tb2-1-ggi{width: 160px;}
+.tb2-2-ggi{width: 120px;}
+.tb2-3-ggi{width: 120px;}
+.tb2-4-ggi{width: 120px;}
 
 @media screen and (min-width:1232px){}
 @media screen and (max-width:1024px){}
@@ -50,6 +63,11 @@
    .tb1-3-ogz{width: 70px;}
    .tb1-4-ogz{width: 130px;}
    .tb1-5-ogz{width: 110px;}
+   //Группировка геодезических измерений
+   .tb2-1-ggi{width: 120px;}
+   .tb2-2-ggi{width: 100px;}
+   .tb2-3-ggi{width: 110px;}
+   .tb2-4-ggi{width: 100px;}
 }
 @media screen and (max-width:480px){
    //Обратная засечка Пранис-Праневича
@@ -68,6 +86,11 @@
    .tb1-2-ogz{width: 40px;}
    .tb1-4-ogz{width: 110px;}
    .tb1-5-ogz{width: 60px;}
+   //Группировка геодезических измерений
+   .tb2-1-ggi{width: 100px;}
+   .tb2-2-ggi{width: 80px;}
+   .tb2-3-ggi{width: 90px;}
+   .tb2-4-ggi{width: 80px;}
 }
 @media screen and (max-width:400px){
    //Обратная засечка Пранис-Праневича
@@ -86,5 +109,12 @@
    .tb1-3-ogz{width: 52px;}
    .tb1-4-ogz{width: 90px;}
    .tb1-5-ogz{width: 78px;}
+   //Группировка геодезических измерений
+   .tb1-1-ggi{font-size: 9px;}
+   //Группировка геодезических измерений
+   .tb2-1-ggi{width: 80px;}
+   .tb2-2-ggi{width: 70px;}
+   .tb2-3-ggi{width: 70px;}
+   .tb2-4-ggi{width: 50px;}
 }
 @media screen and (max-width:360px){}

@@ -19,7 +19,7 @@
          </a>
       </div>
       <div class="article-container">
-         <a href="#" class="article-min">
+         <a href="/kak-reshit/gruppirovka-geodezicheskikh-izmerenij" class="article-min">
             <div class="article-min-img article-min-img--two"></div>
             <h3 class="article-index-h3">Группировка геодезических измерений</h3>
          </a>
