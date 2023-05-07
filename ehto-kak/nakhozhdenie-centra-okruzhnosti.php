@@ -98,7 +98,7 @@
          </li>
          <li class="article-breadcrumbs__item">
             <a class="article-breadcrumbs__link color-violet"
-               href="/kak-reshit/obratnaya-zasechka-pranis-pranevicha">Нахождение центра окружности</a>
+               href="/ehto-kak/nakhozhdenie-centra-okruzhnosti">Нахождение центра окружности</a>
          </li>
       </ol>
       <p class="article-blog__txt">Определив центр круга или окружности, вы сможете решить различные геометрические
